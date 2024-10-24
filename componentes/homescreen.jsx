@@ -9,7 +9,7 @@ export function HomeScreen({ navigation }) {
                 onPress={() => navigation.navigate("Details")}
             ></Button>
             <Button
-                title="Lista Filmes"
+                title="Lista de Filmes"
                 onPress={() => navigation.navigate("Movies")}
             ></Button>
         </View>
